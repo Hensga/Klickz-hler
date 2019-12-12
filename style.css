@@ -1,0 +1,48 @@
+html {
+  height: 100vh;
+  font-size: 1rem;
+}
+
+body {
+  font-size: 1rem;
+  font-family: 'Dosis', sans-serif;
+  height: 100%;
+  margin: 0px;
+  text-align: center;
+  background: radial-gradient(
+    ellipse at center,
+    #a7e1ce 0%,
+    #a7e1ced6 59%,
+    #a7e1ce7c 100%
+  );
+}
+
+.container {
+  width: 500px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.counter {
+  color: black;
+}
+
+.button-container .button {
+  display: inline-block;
+  background-color: #eaba2a;
+  color: black;
+  font-size: 1.5rem;
+  border: 1px solid black;
+  margin: 1rem 2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color linear 0.1s, border linear 0.1s;
+}
+
+.button-container .button:hover {
+  background-color: #a7e1ce;
+  border: 1px solid white;
+}
